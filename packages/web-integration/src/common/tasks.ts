@@ -146,6 +146,7 @@ export class PageTaskExecutor {
                 throw new Error(`Element not found: ${param.prompt}`);
               }
 
+              console.log("ddd")
               return {
                 output: {
                   element,
